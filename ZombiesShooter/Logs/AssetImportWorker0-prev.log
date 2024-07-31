@@ -1,0 +1,877 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 7528 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lande/OneDrive/Escritorio/Juegos unity/ZGThirdPerson/ZombiesShooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60750
+Successfully changed project path to: C:/Users/lande/OneDrive/Escritorio/Juegos unity/ZGThirdPerson/ZombiesShooter
+C:/Users/lande/OneDrive/Escritorio/Juegos unity/ZGThirdPerson/ZombiesShooter
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lande/OneDrive/Escritorio/Juegos unity/ZGThirdPerson/ZombiesShooter/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   
+    VRAM:     3990 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003209 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (506ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (139ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (653ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 3.345800 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.066700 ms MarkObjects: 2.950700 ms  DeleteObjects: 0.077900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sounds/Primary Weapon 15.wav
+  artifactKey: Guid(2fd2732ef4d224242877971031e52bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Primary Weapon 15.wav using Guid(2fd2732ef4d224242877971031e52bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5835b863877dbe5d66a0933a95c11a') in 0.100988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sounds/Primary Weapon 16.wav
+  artifactKey: Guid(39156d5bc27dd4b4b9bc7adc74e6da76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Primary Weapon 16.wav using Guid(39156d5bc27dd4b4b9bc7adc74e6da76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5c8a316463b151cd7a8565f5a4046a') in 0.013504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.632382 seconds.
+  path: Assets/downloads
+  artifactKey: Guid(1d6a8a0e3e6349d4faa85e0611658bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/downloads using Guid(1d6a8a0e3e6349d4faa85e0611658bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09103077afb4d4e0a97e69fb0c3c61a7') in 0.053116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.126716 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location
+  artifactKey: Guid(3cc3068f1af16964c969011b00ad1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location using Guid(3cc3068f1af16964c969011b00ad1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4aa61022f5a7021a41cacf91fcdbec') in 0.009162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.114790 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Materials/BASML_Base.mat
+  artifactKey: Guid(a148d43288106354e92e57d7435a55d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Materials/BASML_Base.mat using Guid(a148d43288106354e92e57d7435a55d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477ba7ce55fb6074df3576830d1fe854') in 0.406814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Materials/BASML_Props.mat
+  artifactKey: Guid(38cd102acd6c77d4e99498e8221c2b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Materials/BASML_Props.mat using Guid(38cd102acd6c77d4e99498e8221c2b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3310a7e5d899a1630a0df3a1deabdce9') in 0.209077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Turns.FBX
+  artifactKey: Guid(22d1d473a9b19974394586a247d68d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Turns.FBX using Guid(22d1d473a9b19974394586a247d68d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194ab3d1da83e8faf5ac7cb0c27601cb') in 0.246569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Angle.FBX
+  artifactKey: Guid(fccbbab9c01dc734e90008b9877a87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Angle.FBX using Guid(fccbbab9c01dc734e90008b9877a87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15c866912c8aeaf3d6b9afe8e186cc8') in 0.015567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Pillar.FBX
+  artifactKey: Guid(9131e4fed43a71e4ab5765bcc68d038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Pillar.FBX using Guid(9131e4fed43a71e4ab5765bcc68d038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c650c1008d55175e6262af35f7917d') in 0.018219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Clean_Wall.FBX
+  artifactKey: Guid(fecbcd55e60fd714a96d0a8b1849af7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Clean_Wall.FBX using Guid(fecbcd55e60fd714a96d0a8b1849af7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0241ab5edaaf52b8e1ab0bfb56adde0d') in 0.016074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Dead_End.FBX
+  artifactKey: Guid(9095fefdc56d8694ca82517d1c8981b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Dead_End.FBX using Guid(9095fefdc56d8694ca82517d1c8981b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe49f841ca998e6a2deb86c61bf733c4') in 0.017585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Barrel.FBX
+  artifactKey: Guid(03c0988bed545734fa2e5ee6f725474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Barrel.FBX using Guid(03c0988bed545734fa2e5ee6f725474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5382d025ac66c5dd669adece45a84fb7') in 0.017085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Armature.FBX
+  artifactKey: Guid(ddaae974f07a3514c9a6ed292550a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Armature.FBX using Guid(ddaae974f07a3514c9a6ed292550a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f25e175fe55ee67adcb34145112a538') in 0.016623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Knee.FBX
+  artifactKey: Guid(52879ca51fb4b6d4db022d03922f65f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Knee.FBX using Guid(52879ca51fb4b6d4db022d03922f65f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f3588bbaca2dd83c16761e1c96f289') in 0.017752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Trough.FBX
+  artifactKey: Guid(b5fc912e1f540fc4bb3fce43d2c21c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Trough.FBX using Guid(b5fc912e1f540fc4bb3fce43d2c21c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c9f976b0c8aca08c4f8dc6658bd5c3') in 0.011990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Entry.FBX
+  artifactKey: Guid(118ca9c93dbcd6c409333c9cf4cba5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Entry.FBX using Guid(118ca9c93dbcd6c409333c9cf4cba5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f547a7e418e3f55d6afdc6af993dd35d') in 0.016572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Clean_Wall.FBX
+  artifactKey: Guid(754ce9ed18a5d094ba26b2388650fb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Clean_Wall.FBX using Guid(754ce9ed18a5d094ba26b2388650fb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629a5e8d2b794933b3ad81c843a1735b') in 0.016965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Cap.FBX
+  artifactKey: Guid(437da064de1c15747bbef2802f1144f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Cap.FBX using Guid(437da064de1c15747bbef2802f1144f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6b1ed0a6e1ea20314a829ff1a49677') in 0.017079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Door.FBX
+  artifactKey: Guid(fe8bd15f9d900ea45ab5710cd37c7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Door.FBX using Guid(fe8bd15f9d900ea45ab5710cd37c7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4e0be0037f859ab6b50293054152b9') in 0.015312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Side.FBX
+  artifactKey: Guid(8bf2d5531b85ff142b3422df7f159992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Side.FBX using Guid(8bf2d5531b85ff142b3422df7f159992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f184acf965a6b8e5ed74c2ad108e93') in 0.016781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Crossing.FBX
+  artifactKey: Guid(f017bb35965326f49abbf615affc6091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Crossing.FBX using Guid(f017bb35965326f49abbf615affc6091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302937ae3a53df53b492869472cf7d2b') in 0.035392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Elevation.FBX
+  artifactKey: Guid(2a69f607fe3b77e4684c857bd51777c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Elevation.FBX using Guid(2a69f607fe3b77e4684c857bd51777c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a0890cbfe49522273e8e37b03373ce') in 0.011017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Bridge.FBX
+  artifactKey: Guid(165e08b761059b24fbe5666b18719f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Bridge.FBX using Guid(165e08b761059b24fbe5666b18719f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd434c984e1bd14ffa40d415653484d') in 0.012120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Angle.FBX
+  artifactKey: Guid(93853251532a28045b3c163628573e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Angle.FBX using Guid(93853251532a28045b3c163628573e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78335208dc24d58acd708c5fd9e7689c') in 0.010988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Stairs_Entry.FBX
+  artifactKey: Guid(27dc8ac744d45dc46bdd5b2f8fbb71af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Stairs_Entry.FBX using Guid(27dc8ac744d45dc46bdd5b2f8fbb71af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac202c1b0a7b4ed36adf88692d21a82') in 0.015908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Right.FBX
+  artifactKey: Guid(0864f8fad669aab47ad2b5bb7138d9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Right.FBX using Guid(0864f8fad669aab47ad2b5bb7138d9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326f724f3d2187bf137d0e39c9af5e57') in 0.019102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Luke.FBX
+  artifactKey: Guid(3ed7932cfd2669a44b8dd7fd56f307e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Luke.FBX using Guid(3ed7932cfd2669a44b8dd7fd56f307e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2fa96fef6d7191c6cc14d611f5e54b') in 0.015102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Entry.FBX
+  artifactKey: Guid(e25cc22cf2114c640ac8112106f1351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Entry.FBX using Guid(e25cc22cf2114c640ac8112106f1351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791fdd2962edbacc7fe5bd9893be694b') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Wall_2.FBX
+  artifactKey: Guid(8bf190ec2b5775b48a84633ce96eecea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Wall_2.FBX using Guid(8bf190ec2b5775b48a84633ce96eecea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bc5945368f2afd123ca9ee5d9d8979') in 0.019615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Clean_Wall.FBX
+  artifactKey: Guid(e092b904985c2674c9bad9d01aebb00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Clean_Wall.FBX using Guid(e092b904985c2674c9bad9d01aebb00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fe3a1f84311a5090bb4271f2a49f31') in 0.019791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Block_1.FBX
+  artifactKey: Guid(391795307dfcdb84eb2382904ea9abe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Block_1.FBX using Guid(391795307dfcdb84eb2382904ea9abe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c371da5d7354009fb4cd38dc09f1311') in 0.020171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Left.FBX
+  artifactKey: Guid(09cf4c944683b094b899ac3a45990b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Left.FBX using Guid(09cf4c944683b094b899ac3a45990b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e67e4c663db58b39ca2db41ce0e22ac') in 0.021290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Switchboard.FBX
+  artifactKey: Guid(9a7b332177f27ec4481ba505201e7194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Switchboard.FBX using Guid(9a7b332177f27ec4481ba505201e7194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d75f5b76dc42f30a878b0ae08c3ca7') in 0.019936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Crossing.FBX
+  artifactKey: Guid(2ca90ed786eb1094da39f5d065643ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Crossing.FBX using Guid(2ca90ed786eb1094da39f5d065643ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459b9c738c7c0d287a272e767e999775') in 0.013108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wall_Lamp.FBX
+  artifactKey: Guid(73a1660ddb1f55e4382e492af3c6cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wall_Lamp.FBX using Guid(73a1660ddb1f55e4382e492af3c6cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75fb16a201a3f780d9d5bd5bbfcf6e3') in 0.011548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Entry.FBX
+  artifactKey: Guid(c0903f8660a845349baf088cb5244331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Entry.FBX using Guid(c0903f8660a845349baf088cb5244331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c139fcb7a383099b82a6032cdee956') in 0.011913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Angle.FBX
+  artifactKey: Guid(54648f9bc1a96364a9994c86c03a91a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Room_Angle.FBX using Guid(54648f9bc1a96364a9994c86c03a91a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9716ab04f6447fae8ff614ebccb95621') in 0.010472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Wall_1.FBX
+  artifactKey: Guid(deac85c5bee744e48b33c9e2b05f28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Wall_1.FBX using Guid(deac85c5bee744e48b33c9e2b05f28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7b9bf36c6bd4f972750ad1f2da9cc6') in 0.012456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Floor.FBX
+  artifactKey: Guid(be20f4fd8e36839479bbe5440fca66c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Floor.FBX using Guid(be20f4fd8e36839479bbe5440fca66c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f9a4acd2016d440705d9e90e49fcef') in 0.015524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Side.FBX
+  artifactKey: Guid(fd8b19516e62faf4aafaa9666d09a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Side.FBX using Guid(fd8b19516e62faf4aafaa9666d09a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f467f0d13dd023844e09417269586f67') in 0.013960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Transition_Wall.FBX
+  artifactKey: Guid(2ced94a27dc7a04479fd3db21eddae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Transition_Wall.FBX using Guid(2ced94a27dc7a04479fd3db21eddae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84da50ef18c09d1e207c15f96ee03510') in 0.016473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Plates.FBX
+  artifactKey: Guid(7cdb306246dde68498c563a375dec669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Plates.FBX using Guid(7cdb306246dde68498c563a375dec669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5082298bb69a48dd470bc4c053a791a3') in 0.015863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Crossing.FBX
+  artifactKey: Guid(8e0e1bc09e08dc849adbacde753e4e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Corridor_Crossing.FBX using Guid(8e0e1bc09e08dc849adbacde753e4e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ead29865cd1bd61373821993601acf') in 0.016264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Valve.FBX
+  artifactKey: Guid(640bfda82c7de8f4faee4178cf0023c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Valve.FBX using Guid(640bfda82c7de8f4faee4178cf0023c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66679258af768b9dea1b5c7cfca27e49') in 0.015624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Celling_Lamp.FBX
+  artifactKey: Guid(acb00d3cc9b6bcf46ab7dbb6012bd70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Celling_Lamp.FBX using Guid(acb00d3cc9b6bcf46ab7dbb6012bd70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a510e4f4d502af106b7a346e01192') in 0.015878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Dead_End.FBX
+  artifactKey: Guid(5a61411a8b4b9394c95742dbd7a9ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Dead_End.FBX using Guid(5a61411a8b4b9394c95742dbd7a9ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcacef4d58e7101ebf5a21dc03be4b98') in 0.016744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Block_2.FBX
+  artifactKey: Guid(ea3dda8e1f0644f48852e5bea58f9fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Universal_Block_2.FBX using Guid(ea3dda8e1f0644f48852e5bea58f9fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b28c5b9c11dfa5c50a89062524e4114') in 0.016290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Angle.FBX
+  artifactKey: Guid(b7f07677cf216254781b31fc24ed7f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Wires_Angle.FBX using Guid(b7f07677cf216254781b31fc24ed7f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c564d207f502655320aada3e16f3bd3b') in 0.012639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Knee.FBX
+  artifactKey: Guid(9f2fbcd63728cef42bda40864dfe6f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Knee.FBX using Guid(9f2fbcd63728cef42bda40864dfe6f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c982024d4f7e6f297df9898470a3d4') in 0.013206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Angle.FBX
+  artifactKey: Guid(037d86217588e064d8bf5e64f7767caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Water_Pipe_Angle.FBX using Guid(037d86217588e064d8bf5e64f7767caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4322ed9b01439d177b66397f31e376') in 0.011726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Stairs.FBX
+  artifactKey: Guid(70ee2a77d89c2944f8357dff56ffcd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Stairs.FBX using Guid(70ee2a77d89c2944f8357dff56ffcd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7dc2dc24d66ba57346ea59163b3007') in 0.010660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Wall.FBX
+  artifactKey: Guid(4db6385d443608f45af3733d6a73e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Base_Canal_Elevation_Wall.FBX using Guid(4db6385d443608f45af3733d6a73e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c07588b4f3ea7dffcc8f753624ae4ab') in 0.015779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Box.FBX
+  artifactKey: Guid(7b6f29253fdce6d4798aabb8161ac255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Meshes/BASML_Props_Box.FBX using Guid(7b6f29253fdce6d4798aabb8161ac255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2333c5d1434f05abf1dcaa956237ceb') in 0.014643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.764837 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Angle.prefab
+  artifactKey: Guid(9a560b4eca7dcd14b8f826cada1ca1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Angle.prefab using Guid(9a560b4eca7dcd14b8f826cada1ca1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c713093e1e122526b905c812c212aca5') in 0.062572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Luke.prefab
+  artifactKey: Guid(35c26f097efc350438d3c9ceb7ec5a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Luke.prefab using Guid(35c26f097efc350438d3c9ceb7ec5a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083a58c7c8b743ec319554f3c3cac62c') in 0.068722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Block_1.prefab
+  artifactKey: Guid(90b3ed2bba0fa9547a9dc607a4983ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Block_1.prefab using Guid(90b3ed2bba0fa9547a9dc607a4983ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16392b90edbfcaf6ec3c2c44f89ea226') in 0.066587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Bridge.prefab
+  artifactKey: Guid(960636df73412f04ab8428294c6a58aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Bridge.prefab using Guid(960636df73412f04ab8428294c6a58aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d89ed5212c0bb97830545b53161c15') in 0.066699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Angle.prefab
+  artifactKey: Guid(56fe1c0ed78992f43ad954b0edf57418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Angle.prefab using Guid(56fe1c0ed78992f43ad954b0edf57418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0957ec905c801978a09fee45655172b9') in 0.034082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Stairs_Entry.prefab
+  artifactKey: Guid(439956ccf986b914eb15bd5912599fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Stairs_Entry.prefab using Guid(439956ccf986b914eb15bd5912599fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9bd2e69ab4a366ee6cda4cf4007ccb') in 0.031231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Switchboard.prefab
+  artifactKey: Guid(a51c7001a39f0b54aa25039e6641fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Switchboard.prefab using Guid(a51c7001a39f0b54aa25039e6641fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbcb57bbf5911289c34b9012a389c76') in 0.031571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Dead_End.prefab
+  artifactKey: Guid(acd9411926ba5364a912158fc6d03981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Dead_End.prefab using Guid(acd9411926ba5364a912158fc6d03981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7140381192d835f57bcd549e93b5bc2') in 0.078942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Clean_Wall.prefab
+  artifactKey: Guid(5fce63c0820cd874d9771957678b36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Clean_Wall.prefab using Guid(5fce63c0820cd874d9771957678b36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945afd04c3182fde67ae7753431f24ea') in 0.087872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Angle.prefab
+  artifactKey: Guid(fdeb973c2a86c764090f127118b9bd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Angle.prefab using Guid(fdeb973c2a86c764090f127118b9bd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7ee94bebf450070c7255a3b28b5f51') in 0.071282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Box.prefab
+  artifactKey: Guid(270dfc038b81e504cb244e675695ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Box.prefab using Guid(270dfc038b81e504cb244e675695ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3359dc4d77962460963c24e757592269') in 0.030144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Armature.prefab
+  artifactKey: Guid(0fd1cec636086464e98a126730eaebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Armature.prefab using Guid(0fd1cec636086464e98a126730eaebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbba7ab99f3e160c2b02eb0d9915c8e') in 0.029290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Valve.prefab
+  artifactKey: Guid(75f47d30714ad204e96b30895dc77f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Valve.prefab using Guid(75f47d30714ad204e96b30895dc77f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7a437c48f2ceebe31779b0790c7952') in 0.029849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Right.prefab
+  artifactKey: Guid(faa9502011fd14d4a9f482bbd03e8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Right.prefab using Guid(faa9502011fd14d4a9f482bbd03e8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf1d4f0bf3868919618fa3a51cc1502') in 0.063180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Barrel.prefab
+  artifactKey: Guid(191d692470ff56749bc70a61a5c822d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Barrel.prefab using Guid(191d692470ff56749bc70a61a5c822d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e762851288f23a9dd2f1bf7d5f698c7') in 0.029421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Elevation.prefab
+  artifactKey: Guid(95c6aabb4b0132a45a1780db77de0126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Elevation.prefab using Guid(95c6aabb4b0132a45a1780db77de0126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e218874557080af90fffbebb147218') in 0.058740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Dead_End.prefab
+  artifactKey: Guid(f85a0607299338947b7268862c41de9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Dead_End.prefab using Guid(f85a0607299338947b7268862c41de9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7c86a00d9f2c7060a1121bed0506f0') in 0.053394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Crossing.prefab
+  artifactKey: Guid(037256282374931498221523539236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Crossing.prefab using Guid(037256282374931498221523539236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cf78437a9c755d67922a27cbbbf40f') in 0.051029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Entry.prefab
+  artifactKey: Guid(b08bd8f8b5d0b54488e81a550ea2b854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Entry.prefab using Guid(b08bd8f8b5d0b54488e81a550ea2b854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ddbca90a618369ccb6b1b15c4c7519') in 0.051886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Left.prefab
+  artifactKey: Guid(7d7da188d8a4e284191ec608c37c6612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Left.prefab using Guid(7d7da188d8a4e284191ec608c37c6612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b546765ab312939072f0a0e114549bbe') in 0.052042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Angle.prefab
+  artifactKey: Guid(b616139ab8379644692193fc2aaf5e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Angle.prefab using Guid(b616139ab8379644692193fc2aaf5e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd29ad816758ddd2dcab03a889428db') in 0.025048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Knee.prefab
+  artifactKey: Guid(43f3bc926385ba540a20ed70084d3fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Knee.prefab using Guid(43f3bc926385ba540a20ed70084d3fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62eb2994be5c7089423920d7c1559756') in 0.026268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Floor.prefab
+  artifactKey: Guid(b715c4d3f2bae11489afa6652ee6a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Floor.prefab using Guid(b715c4d3f2bae11489afa6652ee6a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d40926de8c0befba1841597400db33') in 0.053737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Plates.prefab
+  artifactKey: Guid(286af29e832323f47aa443e9ddc2ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Plates.prefab using Guid(286af29e832323f47aa443e9ddc2ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6598f7e592e01f3bf177eb090fe48f26') in 0.058125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wall_Lamp.prefab
+  artifactKey: Guid(aa6c5f105fddca84dac732069110c0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wall_Lamp.prefab using Guid(aa6c5f105fddca84dac732069110c0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c759896e3b3b2cb03ff3ac5ad44bbecb') in 0.025248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Pillar.prefab
+  artifactKey: Guid(dd40380b131b2e34db92bc328ff3120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Room_Pillar.prefab using Guid(dd40380b131b2e34db92bc328ff3120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725a3d534737316ff4ff014f99a035c0') in 0.041998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Stairs.prefab
+  artifactKey: Guid(95bf493d8160e0e4fb65507deb002e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Stairs.prefab using Guid(95bf493d8160e0e4fb65507deb002e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0c4a82b734c5575a1caab1cc714873') in 0.016457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Trough.prefab
+  artifactKey: Guid(8d67a8e534d255343a3e4ef61be6228a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Trough.prefab using Guid(8d67a8e534d255343a3e4ef61be6228a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3699e849a332c55b1a677402200cf8b9') in 0.044761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Clean_Wall.prefab
+  artifactKey: Guid(96948ec34ee19bf41854a361d5d293dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Clean_Wall.prefab using Guid(96948ec34ee19bf41854a361d5d293dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09d35f17bc6a76d1a5f98a9d24203e5') in 0.052514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Angle.prefab
+  artifactKey: Guid(5bfe449a9c6266c4d8d269cb4e59ab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Angle.prefab using Guid(5bfe449a9c6266c4d8d269cb4e59ab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edeea589db0e8a8573dbb85bd085add1') in 0.066524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Transition_Wall.prefab
+  artifactKey: Guid(18c5d3323500e0f4e8e77cb4cf1a3ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Transition_Wall.prefab using Guid(18c5d3323500e0f4e8e77cb4cf1a3ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1aae6e60f6bc8fd04c40c3ba2cae60') in 0.055469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Door.prefab
+  artifactKey: Guid(28f1c4d4331502c48b4a93cb10c31d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Door.prefab using Guid(28f1c4d4331502c48b4a93cb10c31d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7468f1e6da577c0e3e78c6141a6ca331') in 0.023334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Crossing.prefab
+  artifactKey: Guid(92a8d25709235ca459b1d68912c47961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Crossing.prefab using Guid(92a8d25709235ca459b1d68912c47961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f81ee0ae9b1713f5184bcb8ee55afd') in 0.024218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Wall.prefab
+  artifactKey: Guid(bd3790f5e5a7f62499309ba4f7293024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Wall.prefab using Guid(bd3790f5e5a7f62499309ba4f7293024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a592719c28929d3bab0db6466a9b4ca') in 0.053169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Side.prefab
+  artifactKey: Guid(cbc797179eb7a0045a93fd4ee2ade434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Side.prefab using Guid(cbc797179eb7a0045a93fd4ee2ade434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbecf189fb04b173e9d7b7a0c88504ec') in 0.016911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Wall_2.prefab
+  artifactKey: Guid(d4f34f07b314493478049297114d6457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Wall_2.prefab using Guid(d4f34f07b314493478049297114d6457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5309af51833b8aa03eba0e6da80f8fea') in 0.057329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Side.prefab
+  artifactKey: Guid(00b83b9b7959f0444966eeeb00b40f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Side.prefab using Guid(00b83b9b7959f0444966eeeb00b40f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214f8e70492b8147708da54911a922c2') in 0.019303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Entry.prefab
+  artifactKey: Guid(5d95135483d6bde46b033fed9f8a0002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Elevation_Entry.prefab using Guid(5d95135483d6bde46b033fed9f8a0002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b574b3dda63c33c8939339289b00bb') in 0.070404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Entry.prefab
+  artifactKey: Guid(ef9a5c83021f9ae47b4ee0ede6c4621f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Entry.prefab using Guid(ef9a5c83021f9ae47b4ee0ede6c4621f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9543f3c526dd993865bcb9ffdbcab658') in 0.058667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Block_2.prefab
+  artifactKey: Guid(a7aa715a2e736284a9f1be98d2b779c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Block_2.prefab using Guid(a7aa715a2e736284a9f1be98d2b779c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf51b2438a1b3e1edbd40931818964a') in 0.049245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Crossing.prefab
+  artifactKey: Guid(3708b04e3e6b15c4eb969d6c646c33eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Wires_Crossing.prefab using Guid(3708b04e3e6b15c4eb969d6c646c33eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303b4c79a0e4cf60ed5f49219c2ebb86') in 0.023443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Knee.prefab
+  artifactKey: Guid(12fa22498b2286942a8bea754e4eb313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Water_Pipe_Knee.prefab using Guid(12fa22498b2286942a8bea754e4eb313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4832377acac285485fc41b9e543df011') in 0.026579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Wall_1.prefab
+  artifactKey: Guid(ddcbbd7fb161ef1439943087af3905c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Wall_1.prefab using Guid(ddcbbd7fb161ef1439943087af3905c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37e24b40c6ea5495ab6fb5bb0a376b7') in 0.056280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Turns.prefab
+  artifactKey: Guid(906c2bd1208c2824f8d63fd3e7046c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Canal_Turns.prefab using Guid(906c2bd1208c2824f8d63fd3e7046c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967544d263b8536c166a81d757cb6dde') in 0.053362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Cap.prefab
+  artifactKey: Guid(23d7588ef6d5df44d82c0b4ab3475807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Universal_Cap.prefab using Guid(23d7588ef6d5df44d82c0b4ab3475807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091cc35f4863849dd62cf8d83ad20796') in 0.052502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Celling_Lamp.prefab
+  artifactKey: Guid(b84cb8c7a29aa1a4eafeaeaebed342d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Props_Celling_Lamp.prefab using Guid(b84cb8c7a29aa1a4eafeaeaebed342d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9de7d39d0878a15cd74e119248874c') in 0.026783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Clean_Wall.prefab
+  artifactKey: Guid(ec84334d83565d844a089e66038f3b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs/BASML_Base_Corridor_Clean_Wall.prefab using Guid(ec84334d83565d844a089e66038f3b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b51a605e7e3c7425f7041ba987db05') in 0.054917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.272586 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_Albedo.png
+  artifactKey: Guid(69711b492ae582842a45fad5d437d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_Albedo.png using Guid(69711b492ae582842a45fad5d437d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2f82c80ecce11599c820485b2cd6bf') in 0.046427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_AO.png
+  artifactKey: Guid(815bc586430ebe14cb5ced8ed4961a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_AO.png using Guid(815bc586430ebe14cb5ced8ed4961a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27830c5eab7fd699ece7f39a027993c5') in 0.016944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_NM.png
+  artifactKey: Guid(2ce484218e680ac43bd3d00a6ed79268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_NM.png using Guid(2ce484218e680ac43bd3d00a6ed79268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2145327e6990a91df2b48d0c61bbb695') in 0.030091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_Spec.png
+  artifactKey: Guid(7a94c703a2ce86040b204a2fc6ffa4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_Spec.png using Guid(7a94c703a2ce86040b204a2fc6ffa4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8cdfa7ae33676d7690ac25b421fb87') in 0.042004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_Albedo.png
+  artifactKey: Guid(d358d9a67ec02af49bc0d6ae65c81efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_Albedo.png using Guid(d358d9a67ec02af49bc0d6ae65c81efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb2e456797afeeb59a5def40f24be02') in 0.017032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_HM.png
+  artifactKey: Guid(85722b95166db9b4fa6950ea70cacd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_HM.png using Guid(85722b95166db9b4fa6950ea70cacd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfa485ba61a8d2703f202062e0333f4') in 0.041243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_AO.png
+  artifactKey: Guid(28654ad4c22b55e4a820a6b17fcd49b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_AO.png using Guid(28654ad4c22b55e4a820a6b17fcd49b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab24d9e4935782f6bdfe34ad4fd8d98f') in 0.022667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_Emission.png
+  artifactKey: Guid(2a9eb20f0da240c4684f0c1bb5f74029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_Emission.png using Guid(2a9eb20f0da240c4684f0c1bb5f74029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd262f6dc5523c6a08fe9df5310cfab') in 0.012441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_NM.png
+  artifactKey: Guid(790341a5a313e4446ae26e69bea1294a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Base_NM.png using Guid(790341a5a313e4446ae26e69bea1294a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9225dde90e3cc95126838b3e2672776') in 0.043059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_Spec.png
+  artifactKey: Guid(8941dcc244707ea4f9da26b0ddba24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Texrures/BASML_Props_Spec.png using Guid(8941dcc244707ea4f9da26b0ddba24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dd2b4aaff54c424f8f18b9e7bc262d') in 0.016261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.836336 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/BASML_Demo_Scene.unity
+  artifactKey: Guid(34b5b495a04b92845b2e514453e60019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/BASML_Demo_Scene.unity using Guid(34b5b495a04b92845b2e514453e60019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a4418914ec0a3b652ac7a9663022bd') in 0.004900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.606387 seconds.
+  path: Assets/Basement_And_Sewerage_Modular_Location/Prefabs
+  artifactKey: Guid(2cc4d3fa4b964ad41b0891ad1f8776dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basement_And_Sewerage_Modular_Location/Prefabs using Guid(2cc4d3fa4b964ad41b0891ad1f8776dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55de2adb699acef8206033053e625b5b') in 0.004595 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (434ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (222ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 3.374000 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.070400 ms MarkObjects: 3.082200 ms  DeleteObjects: 0.032400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.646279 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(adbf91036f9773f47aff1a4d6a230563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(adbf91036f9773f47aff1a4d6a230563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac59193643d8a7db9a715d69cefdd61') in 0.017431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.320109 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29e6599cd041830108d3872e123bda2') in 0.004233 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
